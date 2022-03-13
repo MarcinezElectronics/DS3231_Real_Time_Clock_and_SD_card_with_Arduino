@@ -34,7 +34,7 @@ void setup () {
 
   Serial.println("SD card OK!");
   
-  createFile("viztemp.csv");//"Ev, Honap, Nap, Ora, Perc, Masodperc, Homerseklet");
+  createFile("unixtemp.csv");//"Ev, Honap, Nap, Ora, Perc, Masodperc, Homerseklet");
 }
 
 void loop () {
